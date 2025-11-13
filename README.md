@@ -24,7 +24,7 @@ L’idée : avoir un **système d’information** pour gérer n’importe quel d
    - Consomme le MCP-Server et utilise `Llama 3.1` local  
    - Gère la conversation via `TelegramService`  
    - Testable via navigateur avec `WebController`  
-   - Dépendances : `spring-boot-starter-web`, `spring-ai`, `spring-ai-mcp-client`, Telegram  
+   - Dépendances : `spring-boot-starter-web`, `spring-ai`, `spring-ai-mcp-client`, `Telegram`
 
 ### Flux de communication
 Utilisateur → Telegram/Web → AIAgent → MCP-Server (Tools) → AIAgent → Réponse
